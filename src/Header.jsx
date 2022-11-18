@@ -3,14 +3,14 @@ import Datadisplayer from "./fetchBTC"
 import Datadisplayer1 from "./fetchETH"
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-
+import pepe from "./assets/pepe.png"
 
 
 function Header() {
     return (
         <header>
             <div className="headerDiv">
-                <img src="src/assets/pepe.png"/>
+                <img src={pepe}/>
                 <div className="exArrow">
                     <div>
                     Exchange 
