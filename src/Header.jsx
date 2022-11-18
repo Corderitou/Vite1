@@ -4,7 +4,8 @@ import Datadisplayer1 from "./fetchETH"
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import pepe from "./assets/pepe.png"
-
+import arrowD from "./assets/arrow-down-sign-to-navigate.png"
+import menu from "./assets/menu.png"
 
 function Header() {
     return (
@@ -16,7 +17,7 @@ function Header() {
                     Exchange 
                     </div>
                     <div>
-                    <img src="src/assets/arrow-down-sign-to-navigate.png" className="arrow" />
+                    <img src={arrowD} className="arrow" />
                     </div>
                 </div>
                 <div className="fuArrow">
@@ -24,7 +25,7 @@ function Header() {
                        Futuros
                     </div>
                     <div>
-                       <img src="src/assets/arrow-down-sign-to-navigate.png" className="arrow" />
+                       <img src={arrowD} className="arrow" />
                     </div>
                 </div>
                 <div className="spArrow">
@@ -32,7 +33,7 @@ function Header() {
                        Spot
                     </div>
                     <div>
-                        <img src="src/assets/arrow-down-sign-to-navigate.png" className="arrow" />
+                        <img src={arrowD} className="arrow" />
                     </div>
                 </div>
             </div>
@@ -51,7 +52,7 @@ function Header() {
                 <div>
                    Registrarse
                 </div>
-                <img  src="src/assets/menu.png"/>
+                <img  src={menu}/>
             </div>
         </header>
      )
