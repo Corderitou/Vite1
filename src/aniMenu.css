@@ -1,0 +1,51 @@
+.menucon{
+    display: flex;
+    flex-direction: column;
+}
+.line1 {
+    width: 50px;
+    height: 5px;
+    background: black;
+    border-radius: 10px;
+}
+.line2 {
+    width: 50px;
+    height: 5px;
+    background: black;
+    border-radius: 10px;
+}
+.line3 {
+    width: 50px;
+    height: 5px;
+    background: black;
+    border-radius: 10px;
+}
+.a{
+    margin-top: 10px;
+}
+.line1af {
+    width: 50px;
+    height: 5px;
+    background: black;
+    rotate: -45deg;
+    transform: translateY(-10px);
+    border-radius: 10px;
+}
+
+.line2af {
+    width: 50px;
+    height: 5px;
+    background: black;
+    rotate: 45deg;
+    transform: translateY(10px);
+    border-radius: 10px;
+}
+.line3af {
+    position: absolute;
+    
+    width: 50px;
+    height: 5px;
+    rotate: 45deg;
+    transform: translateY(10px);
+    border-radius: 10px;
+}

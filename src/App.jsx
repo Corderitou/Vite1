@@ -1,10 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css"
+import First from "./first"
+import Second from "./second"
 
 function App() {
  return (
-  <div className='hola'>
-    holaA
+  <div>
+    <First/>
+    <Second/>
   </div>
  
   )

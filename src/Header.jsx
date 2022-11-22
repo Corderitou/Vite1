@@ -6,36 +6,18 @@ import ReactDOM from 'react-dom/client'
 import pepe from "./assets/pepe.png"
 import arrowD from "./assets/arrow-down-sign-to-navigate.png"
 import menu from "./assets/menu.png"
+import {FutuM ,ExchangeM, SpotM} from "./HeadersMenu"
+import MatedMenu from "./aniMenu"
+
 
 function Header() {
     return (
         <header>
             <div className="headerDiv">
                 <img src={pepe}/>
-                <div className="exArrow">
-                    <div>
-                    Exchange 
-                    </div>
-                    <div>
-                    <img src={arrowD} className="arrow" />
-                    </div>
-                </div>
-                <div className="fuArrow">
-                    <div>
-                       Futuros
-                    </div>
-                    <div>
-                       <img src={arrowD} className="arrow" />
-                    </div>
-                </div>
-                <div className="spArrow">
-                    <div>
-                       Spot
-                    </div>
-                    <div>
-                        <img src={arrowD} className="arrow" />
-                    </div>
-                </div>
+                <ExchangeM/>
+                <FutuM/>
+                <SpotM/>
             </div>
             <div className="headerDiv">
                 <div>
@@ -52,7 +34,7 @@ function Header() {
                 <div>
                    Registrarse
                 </div>
-                <img  src={menu}/>
+                <MatedMenu/>
             </div>
         </header>
      )
